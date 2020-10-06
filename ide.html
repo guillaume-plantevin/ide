@@ -1,81 +1,97 @@
 <!DOCTYPE html>
+
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> présentation du dossier sur les IDE</title>
-    <link rel="stylesheet" href="ide.css">
-    <!-- 
-        A La Plateforme_, nous sommes tous différents, 
-        nous ne venons pas du même endroit, 
-        nous n’avons pas les mêmes parcours ni les mêmes goûts en revanche, 
-        nous avons tous quelque chose en commun : la passion du numérique et du développement. 
-        Il est important d’avoir un environnement de travail qui nous correspond 
-        et nous rend plus performant. 
-        Aussi, choisir un IDE qui nous est adapté est quelque chose de primordial.
-        Développez un site web qui présente au moins 3 IDE. 
-        Il doit y avoir une page de présentation générale ainsi qu’une page pour chacun des IDE. 
-        Chacune de ces pages doit avoir son propre style, à l’image de l’IDE. 
-        Il doit y avoir des logo, des descriptions, des slogans, 
-        des impressions d’écran, des liens de téléchargement, 
-        des liens vers les réseaux sociaux... 
-        Il faut varier les polices, les couleurs et mettre en place une structure html correcte.
 
-        https://www.gnu.org/software/emacs 
-        https://notepad-plus-plus.org/fr 
-        https://www.sublimetext.com 
-        https://code.visualstudio.com 
-        https://www.eclipse.org/pdt/ 
-        https://www.activestate.com/products/komodo-ide/ 
-        http://brackets.io 
-        https://www.jetbrains.com/phpstorm 
-        https://atom.io
-        https://www.vim.org
-        https://fr.netbeans.org
-        https://www.w3.org 
-        https://developer.mozilla.org/fr/docs/Web/HTML 
-        https://www.w3.org/Style/CSS 
-        https://developer.mozilla.org/fr/docs/Web/CSS
-
-        utiliser les pros and cons
-        https://blog.education-ecosystem.com/10-best-text-editors-programming-2016/
-               
-    -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        
+        <title> présentation du dossier sur les IDE</title>
+        
+        <link rel="stylesheet" href="ide.css">    
+    </head>
     
-</head>
-<body>
-    <header>
-        <h1>Présentation d'IDE</h1>
+    <body>
 
+        <nav>
+            <div class="topnav">
+                <a id="presentation" href="ide.html">Présentation</a>
+                <a id="sublime-link" href="ide1.html">Sublime Text</a>
+                <a id="atom-link" href="ide2.html">Atom</a>
+                <a id="visual-link" href="ide3.html">Visual Code</a>
+            </div>
+        </nav>
 
-    </header>
-    <main>
-        <article>
-            <!-- introduction générale -->
-            <p>
-                Un IDE ou un EDI pour les francophones est l'atelier où le développeur travaille, essaie, corrige son code. Il incorpore ses outils principaux ainsi que la possibilité d'en acquérir de nouveaux pour répondre aux nouveaux besoins, lorsqu'ils se présentent.<br>
-                De prime abord assez déroutant pour un débutant, il s'apprivoise lentement, au gré des connaissances nouvelles du développeur, et des besoins, justement! Le choix est large aujourd'hui, ainsi que les modèles financiers: abonnement, achat de licence ou tout simplement gratuité, comment choisir au mieux un environnement de travail où l'on peut prendre ses marques rapidement pendant de longues journées de travail?<br>
-            </p>  
-            <p>
-                Au sein de cet environnement se loge l'éditeur de texte, qui à la différence d'un traitement de texte tel Word, n'incorpore pas de mise en page dans la sauvegarde du fichier.
-                Ainsi, il n'est là que pour que le développeur code au mieux son site ou programme.
-            </p> 
-            <p>
-                Si Sublime Text a été développé par une seule personne, des entreprises comme Adobe ou Microsoft ont développé elles aussi des éditeurs de texte: Brackets pour la première et Visual Code Studio pour la seconde.
-                
-                Dans les prochaines pages de ce site nous allons voir quelques unes de ces options possibles pour le choix d'un éditeur de texte:
-                Sublime Text, Visual Code Studio, Atom et Brackets. <br>
-                Sans avoir la prétention d'être exhaustif, Je vais tenter de mettre en avant les qualité de ces logiciels pour aider à faire un choix entre eux.
-                Tous sont gratuits, avec la légère différence que Sublime Text étant un shareware, il rappelle périodiquement que l'achat d'une licence d'utilisation ne serait pas une mauvaise chose...
-            </p>
-        </article>
-        <article>
-            
-        </article>
-    </main>
-    <footer>
+        <header>
+            <div class="title">
+                <h1>Présentation d'IDE</h1>
+            </div>
+        </header>
 
-    </footer>
-    
-</body>
+        <main>
+            <section class="introduction">
+                <h2>introduction</h2>
+                <p>
+                    Un <abbr title="integrated Development Environment">IDE</abbr> ou <abbr title="Environnement de Développement Intégré">EDI</abbr> 
+                    pour les francophones est l'atelier où le développeur travaille, essaie, 
+                    corrige son code. Il incorpore ses outils principaux ainsi 
+                    que la possibilité d'en acquérir de nouveaux pour répondre aux nouveaux besoins, 
+                    lorsqu'ils se présentent.<br>
+                    De prime abord assez déroutant pour un débutant, 
+                    il s'apprivoise lentement, au gré des connaissances nouvelles du développeur, 
+                    et des besoins, justement! Le choix est large aujourd'hui, 
+                    ainsi que les modèles financiers: abonnement, 
+                    achat de licence ou tout simplement gratuité, 
+                    comment choisir au mieux un environnement de travail 
+                    où l'on peut prendre ses marques rapidement pendant 
+                    de longues journées de travail?<br>
+                </p>  
+            </section>
+            <section>
+                <div class="intermede">
+                    <div class="joke">
+                        <figure>
+                            <img src="images/joke.png" alt="plaisanterie de programmeur" width="400px">
+                            <figcaption>un algorithme philosophique pour les moments difficiles</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <p>
+                            Au sein de cet environnement se loge l'éditeur de texte, 
+                            qui à la différence d'un traitement de texte tel Word, 
+                            n'incorpore pas de mise en page dans la sauvegarde du fichier.
+                            Ainsi, il n'est là que pour que le développeur code au mieux son site ou programme.
+                        </p> 
+                    </div>
+                </div>
+            </section>
+            <section>
+                <p>
+                    Si Sublime Text a été développé par une seule personne, 
+                    des entreprises comme Adobe ou Microsoft ont développé 
+                    elles aussi des éditeurs de texte: Brackets pour la première 
+                    et Visual Code Studio pour la seconde.
+                    Dans les prochaines pages de ce site nous allons voir quelques unes 
+                    de ces options possibles pour le choix d'un éditeur de texte:
+                    Sublime Text, Atom et Visual Code Studio.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-logo">
+                <div class="logo" id="sub-logo">
+                    <a href="ide1.html"><img src="images/sublime-logo.png" alt="logo de sublime text"></a>
+                </div>
+                <div class="logo" id="atom-logo">
+                    <a href="ide2.html"><img src="images/atom-logo.png" alt="logo d'atom"></a>
+                </div>
+                <div class="logo" id="visual-logo">
+                    <a href="ide3.html"><img src="images/visual-new-logo.png" alt="logo de visual code"></a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
 </html>

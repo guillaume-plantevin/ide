@@ -1,7 +1,72 @@
 /* 
     sublime's colors
-
     #FF9733 yellow
     #EA812B darker yellow
     #4C4C4C gray
 */
+
+body {
+    background-color: #A9C4C7;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+}
+.topnav {
+    width: 100%;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    padding: 0 5px;
+    background-color: rgb(0, 0, 0);
+    /* overflow: hidden; */
+    box-shadow: 0;
+    transition: box-shadow 1s;
+    transition: color 1s;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 80px;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+/* Change the color of links on hover */
+#sublime-link:hover {
+    box-shadow: 0px 0px 20px 10px #FF9733;
+}
+#atom-link:hover {
+    box-shadow: 0px 0px 20px 10px #50BA7F;
+}
+#visual-link:hover {
+    box-shadow: 0px 0px 20px 10px #2986B8;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+    /* background-color: #4CAF50; */
+    color: #4CAF50;
+}
+
+table, td, th {
+    padding: 10px;
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+
+header {
+    background-color: khaki;
+    display: inline-block;
+    justify-content: center;
+}
+header h1 {
+    text-align: center;
+}
+header img {
+    float: left;
+}
+figcaption {
+    font-size: 16px;
+}
