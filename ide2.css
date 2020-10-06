@@ -41,17 +41,18 @@ header h1 {
 }
 
 .topnav {
+    /* en haut de la page */
+    top: 0; 
     width: 100%;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
+    position: fixed;
     padding: 0 5px;
     background-color: rgb(0, 0, 0);
-    /* overflow: hidden; */
-    box-shadow: 0;
+    overflow: hidden;
+    /* box-shadow: 0; */
     transition: box-shadow 1s;
     transition: color 1s;
-}
-/* Style the links inside the navigation bar */
+} 
+/* Style pour la navbar */
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -61,7 +62,6 @@ header h1 {
     font-size: 17px;
 }
   
-/* Change the color of links on hover */
 #sublime-link:hover {
     box-shadow: 0px 0px 20px 10px #FF9733;
 }
@@ -71,11 +71,10 @@ header h1 {
 #visual-link:hover {
     box-shadow: 0px 0px 20px 10px #2986B8;
 }
-/* Add a color to the active/current link */
 .topnav a.active {
-    /* background-color: #4CAF50; */
     color: #4CAF50;
 }
+
 table, td, th {
     padding: 10px;
     border: 1px solid black;

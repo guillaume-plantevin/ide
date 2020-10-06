@@ -5,12 +5,16 @@
     #2986B8 dark blue
 */
 body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     background-color: #2c2c32da;
     color: white;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 26px;
 }
-p {
-    line-height: 1.4;
+p,h1, h3, h2 { 
+    line-height: 1.8;
 }
 header {
     color: white;
@@ -26,6 +30,7 @@ header h1 {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
+    z-index: -1;
 }
 .topnav {
     /* en haut de la page */
@@ -35,11 +40,10 @@ header h1 {
     padding: 0 5px;
     background-color: rgb(0, 0, 0);
     overflow: hidden;
-    box-shadow: 0;
+    /* box-shadow: 0; */
     transition: box-shadow 1s;
     transition: color 1s;
-}
-  
+} 
 /* Style pour la navbar */
 .topnav a {
     float: left;
@@ -74,7 +78,7 @@ table {
     position: absolute;
     top: 0px;
     right: 30%;
-    z-index: -1;
+    z-index: -2;
 } 
 .nom {
     margin: 0px;
@@ -82,4 +86,9 @@ table {
     position: absolute;
     top: 40%;
     right: 40%;
+}
+.twoColumns
+{
+    display: flex;
+    justify-content: space-evenly;
 }

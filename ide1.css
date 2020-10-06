@@ -57,9 +57,10 @@ table {
 }
 
 header {
-    background-color: khaki;
-    display: inline-block;
-    justify-content: center;
+    /* background-color: khaki; */
+    /* background-image: url(images/sublime-logo.png); */
+    display: flex;
+    justify-content: space-evenly;
 }
 header h1 {
     text-align: center;
